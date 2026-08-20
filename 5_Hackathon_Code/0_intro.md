@@ -12,7 +12,7 @@ This link will clone the repository if it is not already available in your works
 
 The main Ocean Hackathon repository is:
 
-https://github.com/sunnydean/ocean_site
+https://github.com/ESA-EarthCODE/ocean_site
 
 ## Fork the Repository
 
@@ -35,7 +35,7 @@ git remote -v
 Keep the main hackathon repository as `upstream` so you can pull updates:
 
 ```bash
-git remote add upstream https://github.com/sunnydean/ocean_site.git
+git remote add upstream https://github.com/ESA-EarthCODE/ocean_site.git
 ```
 
 If `upstream` already exists, skip that line.
@@ -64,7 +64,7 @@ Choose a short branch name that describes your work, for example `add-ocean-anal
 
 Open a pull request from your fork's branch into the main Ocean Hackathon repository:
 
-https://github.com/sunnydean/ocean_site/pulls
+https://github.com/ESA-EarthCODE/ocean_site/pulls
 
 [GitHub Docs: Creating a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
 
