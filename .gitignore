@@ -7,7 +7,7 @@ __pycache__/
 *.zarr
 icechunk_*
 *.ipynb_checkpoints/
-
+_build/
 downloaded_data/
 notes.txt
 
