@@ -1,0 +1,26 @@
+.DS_Store
+.virtual_documents/
+*.ipynb_checkpoints
+.vscode/
+__pycache__/
+*.nc
+*.zarr
+icechunk_*
+*.ipynb_checkpoints/
+
+downloaded_data/
+notes.txt
+
+# Jupyter-generated files
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+.virtual_documents/
+**/.virtual_documents/
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+4_multi_resolution.ipynb
