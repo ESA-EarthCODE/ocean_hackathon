@@ -51,6 +51,8 @@ project:
               title: 3D physical fields
         - file: 1_Datasets/bicep/access.ipynb
           title: BICEP — Biological pump and carbon exchange
+        - file: 1_Datasets/booms/access.ipynb
+          title: Biodiversity in the Open Ocean-Mapping, Monitoring and Modelling (BOOMS)
         - file: 1_Datasets/careheat/access.ipynb
           title: CAREHeat — Marine heat waves
         - file: 1_Datasets/mitho/access.ipynb
