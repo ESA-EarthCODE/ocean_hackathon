@@ -36,11 +36,11 @@ project:
             - file: 1_Datasets/4dmed-2d-pft-kd/access.ipynb
               title: Phytoplankton functional types and diffuse attenuation
             - file: 1_Datasets/4dmed-4dvar-20/acces.ipynb
-              title: Sea-surface height — 4DVarNet 1/20°
+              title: Sea-surface height - 4DVarNet 1/20°
             - file: 1_Datasets/4dmed-4dvar-8/acces.ipynb
-              title: Sea-level and geostrophic velocity — 4DVarNet 1/8°
+              title: Sea-level and geostrophic velocity - 4DVarNet 1/8°
             - file: 1_Datasets/4dmed-fsle/access.ipynb
-              title: Lagrangian eddies — MIOST 1/24°
+              title: Lagrangian eddies - MIOST 1/24°
             - file: 1_Datasets/4dmed-pp/access.ipynb
               title: Primary production
             - file: 1_Datasets/4dmed-ss/access.ipynb
@@ -50,13 +50,13 @@ project:
             - file: 1_Datasets/4dmed-t-s-geo-150/access.ipynb
               title: 3D physical fields
         - file: 1_Datasets/bicep/access.ipynb
-          title: BICEP — Biological pump and carbon exchange
+          title: BICEP - Biological pump and carbon exchange
         - file: 1_Datasets/booms/access.ipynb
           title: Biodiversity in the Open Ocean-Mapping, Monitoring and Modelling (BOOMS)
         - file: 1_Datasets/careheat/access.ipynb
-          title: CAREHeat — Marine heat waves
+          title: CAREHeat - Marine heat waves
         - file: 1_Datasets/mitho/access.ipynb
-          title: MITHO — Cumulative hazard indexes
+          title: MITHO - Cumulative hazard indexes
         - file: 1_Datasets/oceah-heat/access.ipynb
           title: Atlantic Ocean heat content
         - file: 1_Datasets/ocean-soda/access.ipynb
@@ -66,7 +66,14 @@ project:
         - file: 1_Datasets/woc/access.ipynb
           title: WOC total surface current at 15 m
     - file: 2_Datacube/0_intro.ipynb
-      title: Data cube — TBD
+      title: ESA Mediterranean Sea Datacube
+      children:
+        - file: 2_Datacube/1_remote_cube_access.ipynb
+          title: Accessing the ESA Mediterranean Sea Datacube
+        - file: 2_Datacube/2_build_single_cube_demo.ipynb
+          title: Build one local datacube
+        - file: 2_Datacube/3_large_area_processing.ipynb
+          title: Time Series at Every Depth
     - file: 3_File_formats_and_metadata/0_intro.ipynb
       children:
         - file: 3_File_formats_and_metadata/cog/cog.md
