@@ -9,7 +9,7 @@ project:
         - id: ESA
           institution: ESA
           ror: https://ror.org/03wd9za21
-  github: https://github.com/u3ks/ocean_hackathon
+  github: https://github.com/esa-earthcode/ocean_hackathon
   open_access: true
   license:
     content: CC-BY-4.0
