@@ -55,6 +55,8 @@ project:
           title: Biodiversity in the Open Ocean-Mapping, Monitoring and Modelling (BOOMS)
         - file: 1_Datasets/careheat/access.ipynb
           title: CAREHeat - Marine heat waves
+        - file: 1_Datasets/coastdyn/access.ipynb
+          title: CoastDyn - Coastal Dynamics
         - file: 1_Datasets/mitho/access.ipynb
           title: MITHO - Cumulative hazard indexes
         - file: 1_Datasets/oceah-heat/access.ipynb
