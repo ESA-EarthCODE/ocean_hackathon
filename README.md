@@ -27,7 +27,7 @@ The hackathon is supported by [EarthCODE](https://earthcode.esa.int/), and the d
 
 # 1. Datasets prepared for the Ocean Hackathon
 
-Each prepared dataset has an associated notebook, linked in the access notebook column, showing how to open its assets directly from object storage. More information about each dataset is available in its notebook and OSC entry. All notebooks reside in the `1_Datasets` folder.
+Each dataset has an associated notebook, linked in the access notebook column, showing how to open its assets directly from object storage. More information about each dataset is available in its notebook and OSC entry. All notebooks reside in the `1_Datasets` folder.
 
 | Dataset | Description | Prepared format | CRS/grid | Time coverage | Licence | Links | Access notebook |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -46,9 +46,8 @@ Each prepared dataset has an associated notebook, linked in the access notebook 
 | MITHO | Global cumulative hazard indexes | Zarr | EPSG:4326, global 1° lat/lon grid | Monthly; varies by index, 1993–2022 | CC-BY-SA-4.0 | [OSC](https://opensciencedata.esa.int/products/global-cumulative-hazard-indexes-chis/collection.json) | [Notebook](1_Datasets/mitho/access.ipynb) |
 | BICEP | Biological pump and carbon exchange processes | Zarr | EPSG:4326, global regular lat/lon grids | Monthly, 1997–2020 | UK Open Government Licence | [OSC](https://opensciencedata.esa.int/products/bicep-database/collection.json) | [Notebook](1_Datasets/bicep/access.ipynb) |
 | CAREHeat | Marine heat waves | Zarr | EPSG:4326, global 0.25° lat/lon grid | Daily, 1980–2024 | CC-BY-4.0 | [OSC](https://opensciencedata.esa.int/projects/careheat/collection) | [Notebook](1_Datasets/careheat/access.ipynb) |
-| SCOPE | TBD | TBD | TBD | TBD | TBD | TBD | TBD |
-| SARWAVE | TBD | TBD | TBD | TBD | TBD | TBD | TBD |
-| Medicanes | TBD | TBD | TBD | TBD | TBD | TBD | TBD |
+| Booms | Biodiversity in the Open Ocean: Mapping, Monitoring and Modelling (BOOMS) | Zarr | EPSG:4326,  global 0.04° lat/lon grid | Daily, 1998–2024 | CC-BY-NC-4.0 | [OSC](https://opensciencedata.esa.int/projects/booms/collection) | [Notebook](1_Datasets/booms/access.ipynb) |
+| CoastDyn | ESA COASTDyn | Zarr | EPSG:4326,  Europe 0.0625° lat/lon grid | Daily, 2023-2024 | CC-BY-4.0 | [OSC](https://opensciencedata.esa.int/projects/coastdyn/collection) | [Notebook](1_Datasets/coastdyn/access.ipynb) |
 
 # 2. ESA Mediterranean Sea Datacube
 
@@ -67,7 +66,9 @@ Start with [cube access and example plots](2_Datacube/1_remote_cube_access.ipynb
 
 # 3. File Formats and Metadata
 
-The format notebooks demonstrate how products can be transformed or exposed in cloud-optimised formats and described with reusable metadata.
+The format notebooks show 1) how datasets can be transformed in cloud-optimised formats, and 2) described with metadata.
+
+> Note: the examples we used for these notebooks come from Polar studies, since they came in different file formats.
 
 ## Dataset Formats
 
@@ -84,6 +85,15 @@ See the notebooks in `3_File_formats_and_metadata/` and the [Cloud-Native Geospa
 Rich metadata makes each collection easier to find, interpret, cite, and reuse. Collection metadata should document provenance, licence, variables, units, spatial and temporal extent, processing history, and access assets.
 
 EarthCODE collections use the [SpatioTemporal Asset Catalog (STAC)](https://stacspec.org/) specification to provide a consistent, machine-readable description of geospatial data.
+
+
+# 4. Visualisation
+
+Most of the datasets are part of one of the cubes, which in turn can be interactively visualised since they are in geozarr format. To open the visualisation click the "Explore Data" link in the ntoebooks, or go directly to the visualisation [website](https://sunnydean.github.io/ocean_cubes_vis/) . The site wraps a simple GeoZarr viewer and can be replaced with a compatible GeoZarr in any programming language or tool. 
+Additionally, there are two notebooks if you are interested in converting your own data. They use a sample of the OceanSoda Dataset to demonstrate the conversions:
+
+1. [Visualising COGs](4_Visualizations/1_cog_visualisations.ipynb)
+2. [Converting Zarr to GeoZarr](4_Visualizations/2_geozarr_conversion.ipynb)
 
 # Suggested Hackathon Workflow
 
