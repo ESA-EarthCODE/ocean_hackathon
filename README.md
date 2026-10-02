@@ -116,5 +116,3 @@ pixi run jupyter lab
 ```
 
 Network access is only needed for remote object-store reads or optional source downloads. The format tutorials write generated examples to `downloaded_data/`, which is ignored by Git.
-
-The workshop uses EDC (Euro Data Cube). Its workspace URL, resource profile, and kernel name are **TBD**. See the [setup guide](0_Introduction/setup.md) for the latest instructions.
