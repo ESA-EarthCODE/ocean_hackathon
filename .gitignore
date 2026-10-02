@@ -24,3 +24,4 @@ env/
 ENV/
 
 4_multi_resolution.ipynb
+*.tif

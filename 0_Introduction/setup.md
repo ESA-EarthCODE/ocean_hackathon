@@ -20,7 +20,7 @@ pixi run jupyter lab
 
 Network access is only needed for remote object-store reads or optional source downloads. The format tutorials are written so downloaded examples land in `downloaded_data/` and can be regenerated instead of committed.
 
-## Working on EDC (Euro Data Cube) and EarthCODE Workspaces
+## Working EarthCODE Workspaces
 
 If you are using the provided cloud platform environment these notebooks and environment will already have all needed packages installed. Furthermore, there is a shared `/bucket/` directory for collaboration.
 
