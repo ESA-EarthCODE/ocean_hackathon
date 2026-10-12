@@ -11,7 +11,7 @@
 6. Submit your work as a pull request with a short description of the question, datasets, methods, and outputs.
 
 
-### Monday 12 October — 14:00–17:00 CET
+### Monday 26 October — 14:00–17:00 CET
 
 | Time | Activity |
 |---|---|
@@ -23,7 +23,7 @@
 | 15:20–16:30 | **Explore the datacubes and datasets** — Participants<br>- Assess datacube quality and usefulness<br>- Identify missing data<br>- Suggest new datasets to add<br>- Plot/analyse your favourite datasets |
 | 16:30–17:00 | **First impressions and feedback**<br>- Group discussion |
 
-### Wednesday 14 October — 14:00–17:00 CET
+### Wednesday 28 October — 14:00–17:00 CET
 
 | Time | Activity |
 |---|---|
@@ -34,7 +34,7 @@
 | 15:20–16:00 | **Individual/group work** |
 | 16:00–16:10 | **Break** |
 
-### Friday 16 October — 14:00–17:00 CET
+### Friday 30 October — 14:00–17:00 CET
 
 | Time | Activity |
 |---|---|
