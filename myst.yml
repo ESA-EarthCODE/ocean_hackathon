@@ -59,7 +59,7 @@ project:
           title: CoastDyn - Coastal Dynamics
         - file: 1_Datasets/mitho/access.ipynb
           title: MITHO - Cumulative hazard indexes
-        - file: 1_Datasets/oceah-heat/access.ipynb
+        - file: 1_Datasets/ocean-heat/access.ipynb
           title: Atlantic Ocean heat content
         - file: 1_Datasets/ocean-soda/access.ipynb
           title: OceanSODA-ETHZ
