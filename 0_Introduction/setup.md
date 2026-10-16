@@ -2,7 +2,7 @@
 
 ## Working Locally
 
-The notebooks assume a Python geospatial environment with common Pangeo tools. A `pixi.toml` is provided in the repository.
+The notebooks assume a Python geospatial environment with common Pangeo tools. A `pixi.toml` and a Conda `environment.yml` are provided in the repository.
 
 If you do not have Pixi installed, see the [Pixi installation guide](https://pixi.sh/latest/installation/).
 
@@ -16,6 +16,14 @@ Then start JupyterLab:
 
 ```bash
 pixi run jupyter lab
+```
+
+Or use Conda:
+
+```bash
+conda env create --file environment.yml
+conda activate earthcode_cubes
+jupyter lab
 ```
 
 Network access is only needed for remote object-store reads or optional source downloads. The format tutorials are written so downloaded examples land in `downloaded_data/` and can be regenerated instead of committed.

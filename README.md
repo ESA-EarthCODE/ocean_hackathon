@@ -107,13 +107,21 @@ Additionally, there are two notebooks if you are interested in converting your o
 
 ## Environment Notes
 
-The notebooks assume a Python geospatial environment with common Pangeo tools. The repository's `pixi.toml` provides packages including `xarray`, `dask`, `geopandas`, `rasterio`, `rioxarray`, `pyproj`, `shapely`, `pandas`, `numpy`, `matplotlib`, and `pystac`.
+The notebooks assume a Python geospatial environment with common Pangeo tools. The repository's `pixi.toml` and Conda `environment.yml` provide packages including `xarray`, `dask`, `geopandas`, `rasterio`, `rioxarray`, `pyproj`, `shapely`, `pandas`, `numpy`, `matplotlib`, and `pystac`.
 
-Install the environment and start JupyterLab with:
+Install the environment and start JupyterLab with Pixi:
 
 ```bash
 pixi install
 pixi run jupyter lab
+```
+
+Or with Conda:
+
+```bash
+conda env create --file environment.yml
+conda activate earthcode_cubes
+jupyter lab
 ```
 
 Network access is only needed for remote object-store reads or optional source downloads. The format tutorials write generated examples to `downloaded_data/`, which is ignored by Git.

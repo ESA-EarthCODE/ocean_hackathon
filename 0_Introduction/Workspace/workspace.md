@@ -4,7 +4,7 @@
 
 The Ocean Hackathon uses the EDC workspace and its Pangeo environment. The access URL, account process, available resources, and workshop-specific storage details are **TBD**.
 
-EDC provides a managed JupyterLab environment for accessing and analysing the ocean collections. The notebooks can also run locally using the repository's Pixi environment.
+EDC provides a managed JupyterLab environment for accessing and analysing the ocean collections. The notebooks can also run locally using the repository's Pixi or Conda environment; see the [setup instructions](../setup.md).
 
 ## Pangeo Tools
 
