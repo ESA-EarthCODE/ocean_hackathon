@@ -16,6 +16,7 @@ This repository contains information and guided notebooks about the Ocean Hackat
 | `1_Datasets/` | Dataset catalogue and information per source product. | `1_Datasets/datasets_sumary.ipynb` |
 | `2_Datacube/` | ESA Mediterranean Sea Datacube and access examples.| `2_Datacube/0_intro.ipynb` |
 | `3_File_formats_and_metadata/` | Format-conversion examples for Zarr, COG, and GeoParquet, plus the creation of STAC metadata. | `3_File_formats_and_metadata/0_intro.ipynb` |
+| `4_Visualizations/` | Interactive visualisation and GeoZarr conversion examples. | `4_Visualizations/0_intro.ipynb` |
 | `5_Hackathon_Code/` | Folder for your code. | `5_Hackathon_Code/0_intro.md` |
 
 Generated local data is expected in `downloaded_data/`, which is ignored by Git.
@@ -33,8 +34,8 @@ Each dataset has an associated notebook, linked in the access notebook column, s
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 4DMED-SEA sea-surface salinity | Mediterranean salinity and density fields | Zarr | EPSG:4326, 1/24° lat/lon grid | Daily, 2016–2022 | CC-BY-4.0 | [OSC](https://opensciencedata.esa.int/products/4dmed-2d-sss/collection) | [Notebook](1_Datasets/4dmed-ss/access.ipynb) |
 | 4DMED-SEA MIOST Lagrangian eddies | Mediterranean current structures and eddies | Zarr | EPSG:4326, 1/24° lat/lon grid | Daily, April 2016–July 2022 | CC-BY-4.0 | [OSC](https://opensciencedata.esa.int/products/4dmed-2d-alt-miost-le-24/collection) | [Notebook](1_Datasets/4dmed-fsle/access.ipynb) |
-| 4DMED-SEA 4DVarNet 1/8° | Sea-level and geostrophic velocity fields | Zarr | EPSG:4326, 1/8° lat/lon grid | Daily, January 2016–August 2022 | CC-BY-4.0 | [OSC](https://opensciencedata.esa.int/products/4dmed-2d-alt-varnet-8/collection) | [Notebook](1_Datasets/4dmed-4dvar-8/acces.ipynb) |
-| 4DMED-SEA 4DVarNet 1/20° | Sea-surface height and derived variables | Zarr | EPSG:4326, 1/20° lat/lon grid | Daily, January 2016–August 2022 | CC-BY-4.0 | [OSC](https://opensciencedata.esa.int/products/4dmed-2d-alt-varnet-20/collection) | [Notebook](1_Datasets/4dmed-4dvar-20/acces.ipynb) |
+| 4DMED-SEA 4DVarNet 1/8° | Sea-level and geostrophic velocity fields | Zarr | EPSG:4326, 1/8° lat/lon grid | Daily, January 2016–August 2022 | CC-BY-4.0 | [OSC](https://opensciencedata.esa.int/products/4dmed-2d-alt-varnet-8/collection) | [Notebook](1_Datasets/4dmed-4dvar-8/access.ipynb) |
+| 4DMED-SEA 4DVarNet 1/20° | Sea-surface height and derived variables | Zarr | EPSG:4326, 1/20° lat/lon grid | Daily, January 2016–August 2022 | CC-BY-4.0 | [OSC](https://opensciencedata.esa.int/products/4dmed-2d-alt-varnet-20/collection) | [Notebook](1_Datasets/4dmed-4dvar-20/access.ipynb) |
 | 4DMED-SEA PFT and Kd | Phytoplankton functional types and diffuse attenuation | Zarr | EPSG:4326, 8 km lat/lon grid | Monthly, 2019–2021 | CC-BY-4.0 | [OSC](https://opensciencedata.esa.int/products/4dmed-2d-pft-kd/collection) | [Notebook](1_Datasets/4dmed-2d-pft-kd/access.ipynb) |
 | 4DMED-SEA 3D physical fields | Temperature, salinity, density, and geostrophic velocity | Zarr | EPSG:4326, 1/24° grid with 20 depth levels to 153 m | Daily, January 2016–July 2022 | CC-BY-4.0 | [OSC](https://opensciencedata.esa.int/products/4dmed-t-s-geo-150/collection) | [Notebook](1_Datasets/4dmed-t-s-geo-150/access.ipynb) |
 | 4DMED-SEA primary production | Primary production from chlorophyll and temperature | Zarr | EPSG:4326, 1/24° grid with 148 depth levels to 150 m | Daily, January 2016–August 2022 | CC-BY-4.0 | [OSC](https://opensciencedata.esa.int/products/4dmed-3d-prim-prod-150/collection) | [Notebook](1_Datasets/4dmed-pp/access.ipynb) |

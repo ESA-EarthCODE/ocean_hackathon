@@ -35,9 +35,9 @@ project:
           children:
             - file: 1_Datasets/4dmed-2d-pft-kd/access.ipynb
               title: Phytoplankton functional types and diffuse attenuation
-            - file: 1_Datasets/4dmed-4dvar-20/acces.ipynb
+            - file: 1_Datasets/4dmed-4dvar-20/access.ipynb
               title: Sea-surface height - 4DVarNet 1/20°
-            - file: 1_Datasets/4dmed-4dvar-8/acces.ipynb
+            - file: 1_Datasets/4dmed-4dvar-8/access.ipynb
               title: Sea-level and geostrophic velocity - 4DVarNet 1/8°
             - file: 1_Datasets/4dmed-fsle/access.ipynb
               title: Lagrangian eddies - MIOST 1/24°
@@ -106,6 +106,13 @@ project:
               title: Rasterise GeoParquet to Zarr
             - file: 3_File_formats_and_metadata/zarr/2_zarr_metadata.ipynb
               title: Zarr STAC metadata
+    - file: 4_Visualizations/0_intro.ipynb
+      title: Visualisation
+      children:
+        - file: 4_Visualizations/1_cog_visualisations.ipynb
+          title: Visualising COGs
+        - file: 4_Visualizations/2_geozarr_conversion.ipynb
+          title: Converting Zarr to GeoZarr
     - file: 5_Hackathon_Code/0_intro.md
       title: Hackathon Code
   subject: earth and related environmental sciences
@@ -113,6 +120,8 @@ project:
 site:
   template: book-theme
   options:
+    # Keep each dataset's access page under its own folder in the site URLs.
+    folders: true
     logo: static/EarthCODE_kv_transparent.png
   actions:
     - title: Learn about EarthCODE

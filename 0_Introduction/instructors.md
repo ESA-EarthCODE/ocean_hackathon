@@ -5,7 +5,7 @@ This Ocean Hackathon and its supporting materials were developed through [EarthC
 
 ### **Arthur Avenas**
 - **Affiliation:** [ESA](https://esa.int), Frascati, Italy
-- **LinkedIn:** [Arthur Avenas](www.linkedin.com/in/arthur-avenas)
+- **LinkedIn:** [Arthur Avenas](https://www.linkedin.com/in/arthur-avenas)
 - **ORCID:** [0000-0001-6946-6886](https://orcid.org/0000-0001-6946-6886)
 
 ### **Anca Anghelea**
