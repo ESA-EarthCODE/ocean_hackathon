@@ -67,6 +67,8 @@ project:
           title: WAPOSAL waves
         - file: 1_Datasets/woc/access.ipynb
           title: WOC total surface current at 15 m
+        - file: 1_Datasets/upperdyn-morlenn/access.ipynb
+          title: UpperDyn - Morlenn Mixed Layer Properties
     - file: 2_Datacube/0_intro.ipynb
       title: ESA Mediterranean Sea Datacube
       children:
