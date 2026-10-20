@@ -25,3 +25,4 @@ ENV/
 
 4_multi_resolution.ipynb
 *.tif
+1_Datasets/mitho/notebook_artifacts/*
