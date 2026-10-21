@@ -46,4 +46,6 @@ Make sure to select the correct environment size: **EOX JupyterLab (JupyterLab w
 
 See the [introduction to the EDC workspace](./Workspace/workspace.md) for more details.
 
-After you enter the environment and open a notebook, you might be asked to select a kernel. The workshop kernel name is **earthcode-cubes**.
+After you enter the environment and open a notebook, you might be asked to select a kernel. The workshop kernel name is **ocean-hackathon-ocean-hackathon-earthcode_cubes**.
+
+![kernel](../static/kernel.png)
