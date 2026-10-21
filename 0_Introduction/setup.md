@@ -40,7 +40,7 @@ To log in, you must have a [GitHub account](https://docs.github.com/en/get-start
 
 We will need to approve access for you to the online workspaces. You can then directly clone and open this workshop by following this link: https://workspace.ocean-hackathon.hub-otc-sc.eox.at/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FESA-EarthCODE%2Focean_hackathon&urlpath=lab%2Ftree%2Focean_hackathon%2F0_Introduction%2Fintro.ipynb&branch=main.
 
-Make sure to select the correct environment size: **EOX JupyterLab (JupyterLab with conda-store [ocean-hackathon]), 8 GB RAM, 2 CPUs**. The original environment-selection example is shown below.
+Make sure to select the correct environment size: **EOX JupyterLab with Dask-Gateway and Dask Extension, 8 GB RAM, 2 CPUs**. The original environment-selection example is shown below.
 
 ![env](../static/jhub-env.png)
 
