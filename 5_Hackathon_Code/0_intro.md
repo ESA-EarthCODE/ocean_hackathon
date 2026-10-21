@@ -6,7 +6,7 @@ Please add your hackathon work under `5_Hackathon_Code/`.
 
 The EDC workspace git-puller link is:
 
-**TBD**
+https://workspace.ocean-hackathon.hub-otc-sc.eox.at/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FESA-EarthCODE%2Focean_hackathon&urlpath=lab%2Ftree%2Focean_hackathon%2F0_Introduction%2Fintro.ipynb&branch=main
 
 This link will clone the repository if it is not already available in your workspace and open the introductory notebook.
 

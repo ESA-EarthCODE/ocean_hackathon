@@ -34,18 +34,16 @@ If you are using the provided cloud platform environment these notebooks and env
 
 **You can directly start working in the environment. You can access this cloud environment during the week of the online pre-hackathon and the week after!**
 
-To request an account (only available during the workshop!), use your GitHub account to sign in at: **TBD**.
+To request an account (only available during the workshop!), use your GitHub account to sign in at: https://workspace.ocean-hackathon.hub-otc-sc.eox.at.
 
 To log in, you must have a [GitHub account](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github).
 
-We will need to approve access for you to the online workspaces. You can then directly clone and open this workshop by following this link: **TBD**.
+We will need to approve access for you to the online workspaces. You can then directly clone and open this workshop by following this link: https://workspace.ocean-hackathon.hub-otc-sc.eox.at/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FESA-EarthCODE%2Focean_hackathon&urlpath=lab%2Ftree%2Focean_hackathon%2F0_Introduction%2Fintro.ipynb&branch=main.
 
-Make sure to select the correct environment size: **TBD**. The original environment-selection example is shown below.
+Make sure to select the correct environment size: **EOX JupyterLab (JupyterLab with conda-store [ocean-hackathon]), 8 GB RAM, 2 CPUs**. The original environment-selection example is shown below.
 
 ![env](../static/jhub-env.png)
 
 See the [introduction to the EDC workspace](./Workspace/workspace.md) for more details.
 
-After you enter the environment and open a notebook, you might be asked to select a kernel. The workshop kernel name is **TBD**.
-
-![kernel](../static/kernel.png)
+After you enter the environment and open a notebook, you might be asked to select a kernel. The workshop kernel name is **earthcode-cubes**.
