@@ -80,33 +80,33 @@ project:
           title: Time Series at Every Depth
     - file: 3_File_formats_and_metadata/0_intro.ipynb
       children:
-        - file: 3_File_formats_and_metadata/cog/cog.md
+        - file: 3_File_formats_and_metadata/1_parquet/parquet.md
           children:
-            - file: 3_File_formats_and_metadata/cog/1_cog_from_nc.ipynb
-              title: Create COGs from NetCDF
-            - file: 3_File_formats_and_metadata/cog/1_cog_from_tiff.ipynb
-              title: Create a COG from GeoTIFF
-            - file: 3_File_formats_and_metadata/cog/2_cog_metadata.ipynb
-              title: COG STAC metadata
-        - file: 3_File_formats_and_metadata/parquet/parquet.md
-          children:
-            - file: 3_File_formats_and_metadata/parquet/1_parquet_from_nc.ipynb
+            - file: 3_File_formats_and_metadata/1_parquet/1_parquet_from_nc.ipynb
               title: NetCDF point data to GeoParquet
-            - file: 3_File_formats_and_metadata/parquet/1_parquet_from_shp.ipynb
+            - file: 3_File_formats_and_metadata/1_parquet/1_parquet_from_shp.ipynb
               title: Shapefile to GeoParquet
-            - file: 3_File_formats_and_metadata/parquet/2_parquet_metadata.ipynb
+            - file: 3_File_formats_and_metadata/1_parquet/2_parquet_metadata.ipynb
               title: GeoParquet STAC metadata
-        - file: 3_File_formats_and_metadata/zarr/zarr.md
+        - file: 3_File_formats_and_metadata/2_cog/cog.md
           children:
-            - file: 3_File_formats_and_metadata/zarr/1_zarr_from_cog.ipynb
+            - file: 3_File_formats_and_metadata/2_cog/1_cog_from_nc.ipynb
+              title: Create COGs from NetCDF
+            - file: 3_File_formats_and_metadata/2_cog/1_cog_from_tiff.ipynb
+              title: Create a COG from GeoTIFF
+            - file: 3_File_formats_and_metadata/2_cog/2_cog_metadata.ipynb
+              title: COG STAC metadata
+        - file: 3_File_formats_and_metadata/3_zarr/zarr.md
+          children:
+            - file: 3_File_formats_and_metadata/3_zarr/1_zarr_from_cog.ipynb
               title: COGs to Zarr
-            - file: 3_File_formats_and_metadata/zarr/1_zarr_from_nc_1.ipynb
+            - file: 3_File_formats_and_metadata/3_zarr/1_zarr_from_nc_1.ipynb
               title: NetCDF to Zarr
-            - file: 3_File_formats_and_metadata/zarr/1_zarr_from_nc_2.ipynb
+            - file: 3_File_formats_and_metadata/3_zarr/1_zarr_from_nc_2.ipynb
               title: SOFRESH NetCDF to Zarr
-            - file: 3_File_formats_and_metadata/zarr/1_zarr_from_parquet(vector).ipynb
+            - file: 3_File_formats_and_metadata/3_zarr/1_zarr_from_parquet(vector).ipynb
               title: Rasterise GeoParquet to Zarr
-            - file: 3_File_formats_and_metadata/zarr/2_zarr_metadata.ipynb
+            - file: 3_File_formats_and_metadata/3_zarr/2_zarr_metadata.ipynb
               title: Zarr STAC metadata
     - file: 4_Visualizations/0_intro.ipynb
       title: Visualisation

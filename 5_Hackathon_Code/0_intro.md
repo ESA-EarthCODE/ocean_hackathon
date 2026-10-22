@@ -6,7 +6,7 @@ Please add your hackathon work under `5_Hackathon_Code/`.
 
 The EDC workspace git-puller link is:
 
-**TBD**
+https://workspace.ocean-hackathon.hub-otc-sc.eox.at/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FESA-EarthCODE%2Focean_hackathon&urlpath=lab%2Ftree%2Focean_hackathon%2F0_Introduction%2Fintro.ipynb&branch=main
 
 This link will clone the repository if it is not already available in your workspace and open the introductory notebook.
 
@@ -42,6 +42,7 @@ If `upstream` already exists, skip that line.
 
 [GitHub Docs: Managing remote repositories](https://docs.github.com/en/get-started/git-basics/managing-remote-repositories)
 
+
 ## Commit Your Work
 
 Run these commands in a terminal, not inside a notebook:
@@ -59,6 +60,18 @@ Choose a short branch name that describes your work, for example `add-ocean-anal
 [GitHub Docs: Set up Git](https://docs.github.com/en/get-started/git-basics/set-up-git)
 
 [GitHub Docs: Pushing commits to a remote repository](https://docs.github.com/en/get-started/using-git/pushing-commits-to-a-remote-repository)
+
+You can also commit using JupyterLab's Git panel:
+
+![Commit changes using JupyterLab's Git panel](../static/commitclip.gif)
+
+
+## GitHub Authentication
+
+You'll be asked for a token; you can generate a personal access token for GitHub, the example below shows how to create one.
+
+![Create a GitHub personal access token](../static/create-token.gif)
+
 
 ## Open a Pull Request
 

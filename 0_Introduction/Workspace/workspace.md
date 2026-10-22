@@ -2,7 +2,7 @@
 
 ## Workshop Access
 
-The Ocean Hackathon uses the EDC workspace and its Pangeo environment. The access URL, account process, available resources, and workshop-specific storage details are **TBD**.
+The Ocean Hackathon uses the EDC workspace and its Pangeo environment. The access URL, account process, available resources, and workshop-specific storage details are in the [setup instructions](../setup.md).
 
 EDC provides a managed JupyterLab environment for accessing and analysing the ocean collections. The notebooks can also run locally using the repository's Pixi or Conda environment; see the [setup instructions](../setup.md).
 
@@ -20,6 +20,6 @@ Together, these tools support workflows that begin with collection discovery, re
 
 ## Choosing Compute Resources
 
-Begin with the smallest EDC environment suitable for the task and inspect array dimensions and chunks before scaling up. Use a local Dask client for development and EDC's Dask Gateway when the workload benefits from multiple workers. Available Gateway resource profiles are **TBD**.
+Begin with the smallest EDC environment suitable for the task and inspect array dimensions and chunks before scaling up. Use a local Dask client for development and EDC's Dask Gateway when the workload benefits from multiple workers.
 
 Continue with [Distributed Computing with Dask](./dask-gateway.ipynb).
