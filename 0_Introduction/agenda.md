@@ -14,31 +14,31 @@
 ### Monday 26 October — 14:00–17:00 CET
 
 | Time | Activity |
-|---|---|
-| 14:00–14:10 | **ESA Ocean Cluster and ESA EarthCODE introductions** |
-| 14:10–14:30 | **Participant introductions** |
-| 14:30–14:45 | **Hackathon objectives** — Roberto & Marie Helene<br>- Setting the scene<br>- Goals for the meeting<br>- Tasks and science questions |
+| --- | --- |
+| 14:00–14:15 | **Introduction to the ESA Ocean Cluster** — Roberto & Marie Helene<br>- Setting the scene<br>- Goals for the hackathon<br>- Tasks and science questions |
+| 14:15–14:25 | **Intro to EarthCODE** — Anca |
+| 14:25–14:45 | **Participants introduction** — Everyone |
 | 14:45–15:00 | **Overview of the ESA Med Datacubes and selected datasets** — Krasen<br>- Datasets included<br>- Examples |
 | 15:10–15:20 | **Introduction to the shared environment/platform** — Krasen / platform provider |
-| 15:20–16:30 | **Explore the datacubes and datasets** — Participants<br>- Assess datacube quality and usefulness<br>- Identify missing data<br>- Suggest new datasets to add<br>- Plot/analyse your favourite datasets |
+| 15:20–16:30 | **Explore the datacubes and datasets** — Participants<br>- Assess data collection quality and usefulness<br>- Identify missing data<br>- Suggest new datasets to add<br>- Plot/analyse your favourite datasets |
 | 16:30–17:00 | **First impressions and feedback**<br>- Group discussion |
 
 ### Wednesday 28 October — 14:00–17:00 CET
 
 | Time | Activity |
-|---|---|
+| --- | --- |
 | 14:00–14:30 | **Present dataset first look** — Group |
 | 14:30–15:00 | **Building the Datacube and tools for working with the data**<br>- Visualization — Krasen<br>- Example notebooks: adding and transforming new datasets — Krasen |
 | 15:00–15:10 | **Break** |
 | 15:10–15:20 | **Motivating science questions** — Organisers |
-| 15:20–16:00 | **Individual/group work** |
-| 16:00–16:10 | **Break** |
+| 15:20–16:30 | **Individual/group work** |
+| 16:30–17:00 | **Questions / Discussion** — Group |
 
 ### Friday 30 October — 14:00–17:00 CET
 
 | Time | Activity |
-|---|---|
+| --- | --- |
 | 14:00–14:20 | **Catch-up** |
 | 14:20–15:15 | **Individual/group work** |
 | 15:15–16:40 | **Final presentations** |
-| 16:40–17:00 | **Feedback**<br>- What can we do at the in-person hackathon? |
+| 16:40–17:00 | **Feedback**<br>- General feedback? <br>- What can we improve for the in-person hackathon?|
