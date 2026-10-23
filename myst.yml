@@ -70,7 +70,7 @@ project:
         - file: 1_Datasets/upperdyn-morlenn/access.ipynb
           title: UpperDyn - Morlenn Mixed Layer Properties
         - file: 1_Datasets/scope/access.ipynb
-          title: SCOPE - Satellite-based observations of Carbon in the Ocean: Pools, fluxes and Exchanges
+          title: "SCOPE - Satellite-based observations of Carbon in the Ocean: Pools, fluxes and Exchanges"
     - file: 2_Datacube/0_intro.ipynb
       title: ESA Mediterranean Sea Datacube
       children:
