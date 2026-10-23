@@ -3,9 +3,9 @@ name: earthcode_cubes
 channels:
   - conda-forge
 dependencies:
-  - python=3.13.*
+  - python>=3.13.17,<3.14
   - ipykernel>=6,<8
-  - jupyterlab>=4.6.1,<5
+  - jupyterlab>=4.6.4,<5
   - jupytext>=1,<2
   - numpy>=1.26,<3
   - pandas>=2,<4
@@ -36,7 +36,9 @@ dependencies:
   - python-graphviz>=0.21,<1
   - h5netcdf>=1.8.1,<2
   - requests>=2,<3
-  - pip
+  - certifi>=2026.10.19
+  - ca-certificates>=2026.10.19
+  - pip>=26.2.2
   - pip:
       - geozarr-toolkit>=0.1.2,<0.2
       - xstac>=1.2,<2
