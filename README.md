@@ -48,7 +48,10 @@ Each dataset has an associated notebook, linked in the access notebook column, s
 | BICEP | Biological pump and carbon exchange processes | Zarr | EPSG:4326, global regular lat/lon grids | Monthly, 1997–2020 | UK Open Government Licence | [OSC](https://opensciencedata.esa.int/products/bicep-database/collection) | [Notebook](1_Datasets/bicep/access.ipynb) |
 | CAREHeat | Marine heat waves | Zarr | EPSG:4326, global 0.25° lat/lon grid | Daily, 1980–2024 | CC-BY-4.0 | [OSC](https://opensciencedata.esa.int/projects/careheat/collection) | [Notebook](1_Datasets/careheat/access.ipynb) |
 | Booms | Biodiversity in the Open Ocean: Mapping, Monitoring and Modelling (BOOMS) | Zarr | EPSG:4326,  global 0.04° lat/lon grid | Daily, 1998–2024 | CC-BY-NC-4.0 | [OSC](https://opensciencedata.esa.int/products/booms-dataset/collection) | [Notebook](1_Datasets/booms/access.ipynb) |
-| CoastDyn | ESA COASTDyn | Zarr | EPSG:4326,  Europe 0.0625° lat/lon grid | Daily, 2023-2024 | CC-BY-4.0 | [OSC](https://opensciencedata.esa.int/projects/coastdyn/collection) | [Notebook](1_Datasets/coastdyn/access.ipynb) |
+| UpperDyn | Morlenn Mixed Layer Properties | Zarr | EPSG:4326,  North Atlantic Ocean 0.25° lat/lon grid | 3 hours, 2011-2024 | CC-BY-4.0 | [OSC](https://opensciencedata.esa.int/products/morlenn_mld/collection) | [Notebook](1_Datasets/upperdyn-morlenn/access.ipynb) |
+| Scope | ocean surface carbon chemistry (SCOPE) | Zarr | multiple lat/lon grid | Various, 1980-2024 | NA | NA | [Notebook](1_Datasets/scope/access.ipynb) |
+| Medicanes | observations from different satellites over medicane events in Mediterranean Sea | NetCDF | EPSG:4326,  Mediterranean various lat/lon grids | Various | NA | NA | [Notebook](1_Datasets/medicanes/access.ipynb) |
+
 
 # 2. ESA Mediterranean Sea Datacube
 
