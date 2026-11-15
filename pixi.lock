@@ -407,6 +407,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/pyshp-3.1.4-pyhcf101f3_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/pysocks-1.7.1-pyha55dd90_7.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/pystac-1.14.3-pyhd8ed1ab_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/pystac-client-0.9.1-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/pytest-9.1.1-pyhc364b38_2.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/python-dateutil-2.9.0.post0-pyhe01879c_2.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/python-fastjsonschema-2.21.2-pyhe01879c_0.conda
@@ -605,6 +606,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/pyshp-3.1.4-pyhcf101f3_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/pysocks-1.7.1-pyha55dd90_7.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/pystac-1.14.3-pyhd8ed1ab_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/pystac-client-0.9.1-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/pytest-9.1.1-pyhc364b38_2.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/python-dateutil-2.9.0.post0-pyhe01879c_2.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/python-fastjsonschema-2.21.2-pyhe01879c_0.conda
@@ -4921,7 +4923,7 @@ packages:
   - python >=3.10
   license: ISC
   purls:
-  - pkg:pypi/certifi?source=compressed-mapping
+  - pkg:pypi/certifi?source=hash-mapping
   run_exports: {}
   size: 136752
   timestamp: 1792488039424
@@ -6682,6 +6684,21 @@ packages:
   - pkg:pypi/pystac?source=hash-mapping
   size: 138711
   timestamp: 1768070185564
+- conda: https://conda.anaconda.org/conda-forge/noarch/pystac-client-0.9.1-pyhd8ed1ab_0.conda
+  sha256: 438892b9e8ebbe9548dc7655874a50e5059bf5cc6031ef22ff288e9168477f49
+  md5: 011b2f82e74cd7ae2c5feba0e13d18cd
+  depends:
+  - pystac >=1.10.0
+  - python >=3.11
+  - python-dateutil >=2.8.2
+  - requests >=2.28.2
+  license: Apache-2.0
+  license_family: APACHE
+  purls:
+  - pkg:pypi/pystac-client?source=hash-mapping
+  run_exports: {}
+  size: 38820
+  timestamp: 1792585235557
 - conda: https://conda.anaconda.org/conda-forge/noarch/pytest-9.1.1-pyhc364b38_2.conda
   sha256: 430051d80765207a7d782b2b188230ba1489d35c6e75fd9903f76cb9fda4af16
   md5: 64c98a12c4e23eb238bf66bbecafdf3c

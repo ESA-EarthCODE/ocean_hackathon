@@ -42,6 +42,7 @@ graphviz = ">=14.1.2,<15"
 python-graphviz = ">=0.21,<1"
 h5netcdf = ">=1.8.1,<2"
 requests = ">=2,<3"
+pystac-client = ">=0.9.1,<0.10"
 
 [pypi-dependencies]
 geozarr-toolkit = ">=0.1.2,<0.2"
