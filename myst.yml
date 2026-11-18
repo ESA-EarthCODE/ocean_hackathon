@@ -84,6 +84,8 @@ project:
           title: Build one local datacube
         - file: 2_Datacube/3_large_area_processing.ipynb
           title: Time Series at Every Depth
+        - file: 2_Datacube/4_accessing_external_datasets.ipynb
+          title: Accessing External Data
     - file: 3_File_formats_and_metadata/0_intro.ipynb
       children:
         - file: 3_File_formats_and_metadata/1_parquet/parquet.md

@@ -123,6 +123,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libgcc-ng-15.2.0-h69a702a_19.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libgd-2.3.3-h5fbf134_12.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libgdal-core-3.12.3-he63569f_3.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/libgdal-jp2openjpeg-3.12.3-h2e1842f_3.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libgfortran-15.2.0-h69a702a_19.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libgfortran5-15.2.0-h68bc16d_19.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libgl-1.7.0-ha4b6fd6_3.conda
@@ -433,6 +434,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/sortedcontainers-2.4.0-pyhd8ed1ab_1.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/soupsieve-2.8.4-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/stack_data-0.6.3-pyhd8ed1ab_1.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/stackstac-0.5.0-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/tblib-3.2.2-pyhcf101f3_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/terminado-0.18.1-pyhc90fa1f_1.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/threadpoolctl-3.6.0-pyhecae5ae_0.conda
@@ -632,6 +634,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/sortedcontainers-2.4.0-pyhd8ed1ab_1.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/soupsieve-2.8.4-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/stack_data-0.6.3-pyhd8ed1ab_1.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/stackstac-0.5.0-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/tblib-3.2.2-pyhcf101f3_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/terminado-0.18.1-pyhc90fa1f_1.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/threadpoolctl-3.6.0-pyhecae5ae_0.conda
@@ -750,6 +753,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libgcc-15.2.0-hcbb3090_19.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libgd-2.3.3-h05bcc79_12.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libgdal-core-3.12.3-haccf57a_3.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libgdal-jp2openjpeg-3.12.3-h2b54950_3.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libgfortran-15.2.0-h07b0088_19.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libgfortran5-15.2.0-hdae7583_19.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libglib-2.88.2-ha08bb59_0.conda
@@ -2429,6 +2433,21 @@ packages:
   purls: []
   size: 12920201
   timestamp: 1775712965350
+- conda: https://conda.anaconda.org/conda-forge/linux-64/libgdal-jp2openjpeg-3.12.3-h2e1842f_3.conda
+  sha256: d02e8a3a9dd288acb5006150783ab93a4d1a6dec4c1b0eb60699456f52efda77
+  md5: a4b72bb65bb5fe234c82f3e3adc4a50e
+  depends:
+  - __glibc >=2.17,<3.0.a0
+  - libgcc >=14
+  - libgdal-core 3.12.3 he63569f_3
+  - libstdcxx >=14
+  - openjpeg >=2.5.4,<3.0a0
+  license: MIT
+  license_family: MIT
+  purls: []
+  run_exports: {}
+  size: 474598
+  timestamp: 1775714861505
 - conda: https://conda.anaconda.org/conda-forge/linux-64/libgfortran-15.2.0-h69a702a_19.conda
   sha256: 561a42758ef25b9ce308c4e2cf56daee4f06138385a17e29a492cd928e00be6f
   md5: 42bf7eca1a951735fa06c0e3c0d5c8e6
@@ -7042,6 +7061,22 @@ packages:
   - pkg:pypi/stack-data?source=hash-mapping
   size: 26988
   timestamp: 1733569565672
+- conda: https://conda.anaconda.org/conda-forge/noarch/stackstac-0.5.0-pyhd8ed1ab_0.conda
+  sha256: 1baf4cb93fd7603176c28521d9d8bde25f3d9029f2a8a170a9b083c47931ca2d
+  md5: a1295d17c40cb4ec767e396293a44d98
+  depends:
+  - dask-core >=2022.1.1
+  - pyproj <4.0.0,>=3.0.0
+  - python >=3.8,<4.0
+  - rasterio <2.0.0,>=1.3.0
+  - xarray >=0.18
+  license: MIT
+  license_family: MIT
+  purls:
+  - pkg:pypi/stackstac?source=hash-mapping
+  run_exports: {}
+  size: 57114
+  timestamp: 1695415252757
 - conda: https://conda.anaconda.org/conda-forge/noarch/tblib-3.2.2-pyhcf101f3_0.conda
   sha256: 6b549360f687ee4d11bf85a6d6a276a30f9333df1857adb0fe785f0f8e9bcd60
   md5: f88bb644823094f436792f80fba3207e
@@ -8696,6 +8731,20 @@ packages:
   purls: []
   size: 9896508
   timestamp: 1775715987003
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/libgdal-jp2openjpeg-3.12.3-h2b54950_3.conda
+  sha256: 9c8e3a35a05ce879cfedeafa3fe427acd03ec5d6ab3dfbd13f1636c6261b2c2c
+  md5: 85e62c890dd34b98df0443b860b7c6f5
+  depends:
+  - __osx >=11.0
+  - libcxx >=19
+  - libgdal-core 3.12.3 haccf57a_3
+  - openjpeg >=2.5.4,<3.0a0
+  license: MIT
+  license_family: MIT
+  purls: []
+  run_exports: {}
+  size: 467726
+  timestamp: 1775725197249
 - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libgfortran-15.2.0-h07b0088_19.conda
   sha256: d4837b3b9b30af3132d260225e91ab9dde83be04c59513f500cc81050fb37486
   md5: 1ea03f87cdb1078fbc0e2b2deb63752c
