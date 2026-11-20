@@ -75,6 +75,8 @@ project:
           title: "Accessing the SARWAVE data"
         - file: 1_Datasets/medicanes/access.ipynb
           title: "Accessing the MEDICANES atlas"
+        - file: 1_Datasets/cbc/access.ipynb
+          title: "Accessing Coastal Blue Carbon"
     - file: 2_Datacube/0_intro.ipynb
       title: ESA Mediterranean Sea Datacube
       children:
