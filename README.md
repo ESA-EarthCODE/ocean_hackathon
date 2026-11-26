@@ -52,6 +52,7 @@ Each dataset has an associated notebook, linked in the access notebook column, s
 | Scope | ocean surface carbon chemistry (SCOPE) | Zarr | multiple lat/lon grid | Various, 1980-2024 | NA | NA | [Notebook](1_Datasets/scope/access.ipynb) |
 | Medicanes | observations from different satellites over medicane events in Mediterranean Sea | NetCDF | EPSG:4326,  Mediterranean various lat/lon grids | Various | NA | NA | [Notebook](1_Datasets/medicanes/access.ipynb) |
 | Coastal blue carbon | Extent and data for seagrass meadows, salt marshes and mangroves | Geopackage | EPSG:3031,  Mediterranean polygon files | Various | NA | NA | [Notebook](1_Datasets/cbc/access.ipynb) |
+| SARWAVE | Sentinel-1 intraburst and interburst significant wave height, wind-sea wave height and mean wave period | Zarr | Geolocated Sentinel-1 swath tiles | 2022, at overpass times | CC BY | [Ifremer](https://doi.org/10.12770/1b05fc41-e06e-4285-ad7b-b97f6f847e00) | [Notebook](1_Datasets/sarwave/access.ipynb) |
 
 
 # 2. ESA Mediterranean Sea Datacube
@@ -60,10 +61,10 @@ The [ESA Mediterranean Sea Datacube](2_Datacube/0_intro.ipynb) combines marine d
 
 | Store | Contents | Cube coordinate coverage |
 | --- | --- | --- |
-| [ocean-med-monthly-cube.zarr](https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/med_cubes/ocean-med-monthly-cube.zarr) | 4DMED PFT/Kd, ocean heat content, OceanSODA, BICEP, and MITHO | Monthly, January 2016–December 2022 |
+| [ocean-med-monthly-cube.zarr](https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/med_cubes/ocean-med-monthly-cube.zarr) | 4DMED PFT/Kd, ocean heat content, OceanSODA, BICEP, MITHO, BOOMS T1–T3 surface classes, and Coastal Blue Carbon habitat and stock | Monthly, January 2016–December 2022 |
 | [hourly_cube.zarr](https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/med_cubes/hourly_cube.zarr) | WOC and CMEMS current components at 15 m | Hourly, 30 December 2014–30 December 2019 |
 | [ocean-med-biophysics.zarr](https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/med_cubes/ocean-med-biophysics.zarr) | 4DMED primary production and 3D physical fields at 18 depths, 3–135 m | Daily, 1 January 2016–31 July 2022 |
-| [ocean-med-daily-surface-cube.zarr](https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/med_cubes/ocean-med-daily-surface-cube.zarr) | 4DMED salinity/density, FSLE, both 4DVarNet reconstructions, and CAREHeat categories | Daily, 1 January 2016–31 December 2022 |
+| [ocean-med-daily-surface-cube.zarr](https://s3.waw4-1.cloudferro.com/EarthCODE/OSCAssets/med_cubes/ocean-med-daily-surface-cube.zarr) | 4DMED salinity/density, FSLE, both 4DVarNet reconstructions, CAREHeat categories, UpperDyn/Morlenn mixed-layer properties, and SARWAVE sea state | Daily, 1 January 2016–31 December 2022 |
 
 The notebooks open these online stores directly over HTTPS using consolidated metadata. An internet connection is required; only the selected chunks are read. Group `0` is full resolution; groups `1` and `2` contain spatial summaries at 1/6° and 1/3°. Individual products may cover only part of a store's time axis.
 
