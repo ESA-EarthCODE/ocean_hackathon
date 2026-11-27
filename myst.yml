@@ -71,9 +71,14 @@ project:
           title: UpperDyn - Morlenn Mixed Layer Properties
         - file: 1_Datasets/scope/access.ipynb
           title: "SCOPE - Satellite-based observations of Carbon in the Ocean: Pools, fluxes and Exchanges"
+        - file: 1_Datasets/water-project/access.ipynb
+          title: "Accessing WATER eddies"
+        - file: 1_Datasets/sarwave/access.ipynb
+          title: "Accessing the SARWAVE data"
         - file: 1_Datasets/medicanes/access.ipynb
           title: "Accessing the MEDICANES atlas"
-
+        - file: 1_Datasets/cbc/access.ipynb
+          title: "Accessing Coastal Blue Carbon"
     - file: 2_Datacube/0_intro.ipynb
       title: ESA Mediterranean Sea Datacube
       children:
@@ -83,6 +88,8 @@ project:
           title: Build one local datacube
         - file: 2_Datacube/3_large_area_processing.ipynb
           title: Time Series at Every Depth
+        - file: 2_Datacube/4_accessing_external_datasets.ipynb
+          title: Accessing External Data
     - file: 3_File_formats_and_metadata/0_intro.ipynb
       children:
         - file: 3_File_formats_and_metadata/1_parquet/parquet.md
@@ -125,7 +132,7 @@ project:
   subject: earth and related environmental sciences
 
 site:
-  template: book-theme
+  template: https://github.com/jupyter-book/myst-theme/releases/download/myst-to-react%401.4.1/book-theme.zip
   options:
     # Keep each dataset's access page under its own folder in the site URLs.
     folders: true

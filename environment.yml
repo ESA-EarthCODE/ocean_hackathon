@@ -28,6 +28,7 @@ dependencies:
   - fsspec>=2025,<2027
   - s3fs>=2025,<2027
   - pystac>=1,<2
+  - pystac-client>=0.9.1,<0.10
   - ipywidgets>=8,<9
   - pytest>=8,<10
   - hvplot>=0.12.2,<0.13
