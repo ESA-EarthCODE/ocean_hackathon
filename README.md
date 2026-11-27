@@ -53,6 +53,7 @@ Each dataset has an associated notebook, linked in the access notebook column, s
 | Medicanes | observations from different satellites over medicane events in Mediterranean Sea | NetCDF | EPSG:4326,  Mediterranean various lat/lon grids | Various | NA | NA | [Notebook](1_Datasets/medicanes/access.ipynb) |
 | Coastal blue carbon | Extent and data for seagrass meadows, salt marshes and mangroves | Geopackage | EPSG:3031,  Mediterranean polygon files | Various | NA | NA | [Notebook](1_Datasets/cbc/access.ipynb) |
 | SARWAVE | Sentinel-1 intraburst and interburst significant wave height, wind-sea wave height and mean wave period | Zarr | Geolocated Sentinel-1 swath tiles | 2022, at overpass times | CC BY | [Ifremer](https://doi.org/10.12770/1b05fc41-e06e-4285-ad7b-b97f6f847e00) | [Notebook](1_Datasets/sarwave/access.ipynb) |
+| WATER | Global eddies counts and associated temperature anomalies | Zarr | 2d lat,lon grid | daily from 2023-07-27 to 2024-05-01 | CC-BY-4.0 | NA | [Notebook](1_Datasets/water-project/access.ipynb) |
 
 
 # 2. ESA Mediterranean Sea Datacube
